@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All About Arrested Development - Contact Us</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body onload="autoRun()">
+	<div id="header"></div>
+	<div id="links">
+		<a href="index.html">Home</a><br/>
+		<a href="about.html">About the Show</a><br/>
+		<a href="characters.html">Characters</a><br/>
+		<a href="accolades.html">Accolades</a><br/>
+		<a href="contact.html">Contact Us</a></br>
+	</div>
+	<div id="content">
+		<p>This website was designed by Sam McGuire and Marci Peek. You can send us a message, if you like.</p>
+		<form id="contact_form" action="mail.php" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Your name:</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			</div>
+			<div class="row">
+				<label for="email">Your email:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+		<div class="row">
+			<label for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+		</div>
+		<input id="submit_button" type="submit" value="Send email" />
+		</form>	
+	</div>
+</body>
+</html>

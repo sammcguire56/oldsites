@@ -1,0 +1,83 @@
+body {
+	background-color: #f57921;
+	font-family: "Poplar Std Black", sans-serif;
+	font-size: 20px;
+}
+#header {
+	background-image: url('images/header.jpg');
+	width: 620px;
+	height: 90px;
+	margin: 0 auto;
+}
+#links {
+	width: 150px;
+	height: 400px;
+	text-align: left;
+	background: linear-gradient(white, #f57921);
+	padding: 5px;
+	float: left;
+	font-size: 30px;
+}
+#content {
+	background: linear-gradient(white, #f57921);
+	padding: 5px;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+#bluth {
+	float: left;
+	width: 360px;
+	padding: 5px;
+}
+#michael {
+	float: left;
+	padding: 5px;
+}
+#lindsay {
+	float: right;
+	padding: 5px;
+}
+#gob {
+	float: left;
+	padding: 5px;
+}
+#george_michael {
+	float: right;
+	padding: 5px;
+}
+#maeby {
+	float: left;
+	padding: 5px;
+}
+#buster {
+	float: right;
+	padding: 5px;
+}
+#tobias {
+	float: left;
+	padding: 5px;
+}
+#george {
+	float: right;
+	padding: 5px;
+}
+#lucille {
+	float: left;
+	padding: 5px;
+}
+a:link {
+    text-decoration: none;
+	color: #000000;
+}
+a:visited {
+    text-decoration: none;
+	color: #000000;
+}
+a:hover {
+    text-decoration: none;
+	color: #f57921;
+}
+a:active {
+    text-decoration: none;
+}

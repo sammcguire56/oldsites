@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+}
+.top {
+	background: radial-gradient(ellipse closest-side at top center, #404040, black);
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+nav {
+	position: relative;
+	background: black;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+nav ul {
+	padding: 0;
+}
+nav li {
+	display: inline;
+	line-height: 50px;
+	padding: 0 25px 0 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+nav a:hover {
+	color: white;
+}
+nav .active a {
+	color: white;
+	font-family: 'Arial Black', 'Helvetica Bold', sans-serif;
+}
+.jumbotron1 {
+	background: url('images/image2.jpg');
+	width: 100%;
+	height: 500px;
+	background-position: center;
+}
+.jumbotron2 {
+	background: url('images/image6.jpg');
+	width: 100%;
+	height: 500px;
+	background-position: center;
+}
+.contain {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.center {
+	margin: auto;
+	display: block;
+}
+.left {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+.right {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+#content {
+	width: 100%;
+	min-height: 500px;
+	background: white;
+}
+#content p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 15px;
+}
+#content a {
+	color: black;
+}
+#content img {
+	margin: 15px 15px 0 0;
+}
+footer {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 100px;
+	text-align: center;
+}

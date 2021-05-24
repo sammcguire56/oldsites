@@ -1,0 +1,272 @@
+*{
+  margin: 0;
+}
+@font-face{
+	font-family: "FolkPro";
+	src: url('resources/A-OTF-FolkPro-Bold.otf');
+}
+body {
+  font-family: "FolkPro";
+  background-color: #202020;
+}
+#home {
+  display: block;
+  margin: auto;
+}
+#enter{
+  text-align: center;
+  padding: 15px;
+}
+#logo {
+  width: 40px;
+  margin: 3px 0 0 3px;
+  float: left;
+}
+#site_name {
+  color: white;
+}
+nav {
+  z-index: 1;
+}
+.nav_default {
+  background-color: #949494;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+.nav_modes {
+  background-color: #414d95;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+.nav_characters {
+  background-color: #94414d;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+/*.nav_stages {
+  background-color: #494194;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}*/
+.nav_stages {
+  background-color: #948741;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+.nav_trophies {
+  background-color: #4e9441;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+.nav_contact {
+  background-color: #874194;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  line-height: 50px;
+  margin: 0 15px 0 15px;
+}
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background-image: url('images/jumbo.jpg');
+  background-position: center;
+}
+.jumbotron p {
+  line-height: 500px;
+  text-align: center;
+  font-size: 36px;
+}
+a {
+  text-decoration: none;
+  color: #ffca00;
+  background: black;
+}
+a:hover {
+  color: black;
+  background: #ffca00;
+  transition-duration: 0.1s;
+}
+#enter a {
+  text-decoration: none;
+  color: #ffca00;
+  background: black;
+  padding: 0 15px;
+}
+#enter a:hover {
+  color: black;
+  background: #ffca00;
+  transition-duration: 0.1s;
+}
+.center {
+	margin: auto;
+	display: block;
+}
+.left {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+.right {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+.default_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #424242;
+  top: 10px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #949494;
+  border-radius: 3px;
+}
+.modes_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #1d2342;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #414d95;
+  border-radius: 3px;
+}
+.characters_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #421d23;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #94414d;
+  border-radius: 3px;
+}
+/*.stages_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #211d42;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #494194;
+  border-radius: 3px;
+}*/
+.stages_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #423d1d;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #948741;
+  border-radius: 3px;
+}
+.trophies_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #23421d;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #4e9441;
+  border-radius: 3px;
+}
+.contact_content {
+  position: relative;
+  margin: auto;
+  color: white;
+  background: #3d1d42;
+  top: 60px;
+  padding: 15px;
+  width: 900px;
+  min-height: 450px;
+  border: 3px solid #874194;
+  border-radius: 3px;
+}
+.characters_content h2 {
+  text-align: center;
+}
+.stages_content {
+  text-align: center;
+}
+table {
+  width: 850px;
+  margin: 0 auto;
+}
+th {
+  border-bottom: 1px solid white;
+}
+td {
+  text-align: center;
+  width: 170px;
+  padding: 12px;
+}
+form {
+	width: 100%;
+	line-height: 30px;
+	font-size: 20px;
+}
+input[type=text], textarea {
+	width: 850px;
+	border-radius: 2px;
+	font-size: 15px;
+	border: 1px solid gray;
+	margin: 5px 10px 5px 10px;
+}
+input[type=submit], input[type=reset] {
+	border: 1px solid black;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	margin: 10px;
+	background: black;
+  color: #ffca00;
+}
+input[type=submit]:hover, input[type=reset]:hover {
+	background: #ffca00;
+  color: black;
+}
+#submitted {
+  text-align: center;
+  color: white;
+}
+footer {
+  position: relative;
+  top: 100px;
+	font-family: serif;
+	color: white;
+	background: linear-gradient(#202020, black, #202020);
+	line-height: 15px;
+	text-align: center;
+	padding: 20px;
+}

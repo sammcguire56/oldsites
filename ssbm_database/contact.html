@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav_contact">
+    <img id="logo" src="images/logo.svg" />
+    <ul>
+      <a href="home.html"><li>Home</li></a>
+      <a href="modes.html"><li>Modes</li></a>
+      <a href="characters.html"><li>Characters</li></a>
+      <a href="stages.html"><li>Stages</li></a>
+      <!--<a href="items.html"><li>Items</li></a>-->
+      <a href="trophies.html"><li>Trophies</li></a>
+      <a href="#"><li>Contact</li></a>
+    </ul>
+  </nav>
+  <div class="contain">
+    <div class="contact_content">
+      <h1>Send Sam, the siterunner, a message.</h1>
+      <form method="post" action="mail.php">
+        <input type="text" name="name" placeholder="Name"/><br/>
+				<input type="text" name="email" placeholder="E-Mail Address"/><br/>
+				<textarea name="message" placeholder="Message" rows="5"></textarea><br/>
+				<input type="submit" name="submit" value="Send Message"/>
+				<input type="reset" name="reset" value="Reset Form"/>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; Sam McGuire, 2015. &copy; Nintendo, HAL Laboratory, Intelligent
+      Systems, 2001.</p>
+  </footer>
+</html>
